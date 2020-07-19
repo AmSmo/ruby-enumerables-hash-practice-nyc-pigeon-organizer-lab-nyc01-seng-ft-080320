@@ -15,7 +15,6 @@ def nyc_pigeon_organizer(data)
           else
             pigeons[bird][attribute] << true_answer.to_s
           end
-          
         end
       end
     end
