@@ -15,9 +15,9 @@ def add_bird(data)
       bird_array.each do |bird|
         if pigeons[bird] == nil
           pigeons[bird] = {attribute => true_answer}
-        # else
+        else
         #   if pigeons[bird][attribute] == nil
-        #     pigeons[bird][attribute] = [true_answer]
+            pigeons[bird][attribute] = [true_answer]
         #   else
         #     pigeons[bird][attribute] = pigeons[bird][attribute]  << true_answer
         #   end
