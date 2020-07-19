@@ -2,11 +2,9 @@ require "pry"
 
 
 
-
-
 def nyc_pigeon_organizer(data)
   pigeons = add_bird(data)
-  
+  binding.pry
   pigeons
 end
 
@@ -20,6 +18,5 @@ def add_bird(data)
       
     end
   end
-  
   pigeons
 end
