@@ -16,11 +16,11 @@ def add_bird(data)
         if pigeons[bird] == nil
           pigeons[bird] = {attribute => true_answer}
         else
-        #   if pigeons[bird][attribute] == nil
+          if pigeons[bird][attribute] == nil
             pigeons[bird][attribute] = [true_answer.to_s]
         #   else
         #     pigeons[bird][attribute] = pigeons[bird][attribute]  << true_answer.to_s
-        #   end
+          end
           
         end
       end
