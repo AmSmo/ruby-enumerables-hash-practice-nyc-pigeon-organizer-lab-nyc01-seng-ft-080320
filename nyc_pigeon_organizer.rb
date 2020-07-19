@@ -19,6 +19,3 @@ def add_bird(data)
   end
   pigeons
 end
-
-def add_tribs(data)
-  
