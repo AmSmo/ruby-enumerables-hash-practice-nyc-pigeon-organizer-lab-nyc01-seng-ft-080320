@@ -4,7 +4,7 @@ require "pry"
 
 def nyc_pigeon_organizer(data)
   pigeons = add_bird(data)
-  pigeons = add_tribs(pigeons)
+  binding.pry
   pigeons
 end
 
@@ -13,7 +13,7 @@ def add_bird(data)
    data.each do |attribute, assignments|
     assignments.each do |true_answer, bird_array|
       bird_array.each do |bird|
-        pigeons[bird] = {}
+        pigeons[bird][attribute] = {}
       end
     end
   end
