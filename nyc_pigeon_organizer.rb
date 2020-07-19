@@ -4,7 +4,7 @@ require "pry"
 
 def nyc_pigeon_organizer(data)
   pigeons = add_bird(data)
-  
+  pigeons = add_tribs(pigeons)
   pigeons
 end
 
@@ -19,3 +19,6 @@ def add_bird(data)
   end
   pigeons
 end
+
+def add_tribs(data)
+  
