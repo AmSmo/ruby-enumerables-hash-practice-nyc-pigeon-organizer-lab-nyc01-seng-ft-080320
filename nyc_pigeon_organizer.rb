@@ -13,7 +13,9 @@ def add_bird(data)
    data.each do |attribute, assignments|
     assignments.each do |true_answer, bird_array|
       bird_array.each do |bird|
-        pigeons[bird] = {attribute = true_answer}
+        if pigeons[bird] == nil
+          pigeons[bird] = {attribute = true_answer}
+        end
       end
     end
   end
