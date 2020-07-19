@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
 end
 
 def add_bird(data)
-  pigeons = {}
+  pigeons = {{}}
    data.each do |attribute, assignments|
     assignments.each do |true_answer, bird_array|
       bird_array.each do |bird|
