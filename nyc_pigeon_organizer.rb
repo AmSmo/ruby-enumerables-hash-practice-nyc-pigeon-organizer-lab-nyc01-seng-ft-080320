@@ -17,7 +17,6 @@ def add_bird(data)
       bird_array.each do |bird|
         pigeons[bird] = {}
         pigeons[bird][attribute] = true_answer
-        binding.pry
       end
       
     end
